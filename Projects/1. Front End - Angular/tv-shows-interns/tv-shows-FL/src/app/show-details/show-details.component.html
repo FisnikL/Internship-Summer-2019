@@ -1,0 +1,38 @@
+<div class="container" *ngIf="show">
+  <h3><a href="{{show.showURL}}" target="_blank">{{show.name}}</a></h3>
+    <div class="d-flex">
+      <div class="px-5">
+        <img src="{{show.imageURL}}"
+          alt="" class="img-thumbnail">
+      </div>
+      <div class="p-4 flex-grow-1 details">
+        <div [innerHTML]="show.summary"></div>
+        <p>Language: <span [innerHTML]="show.language"></span></p>
+        <p>Genres: <span [innerHTML]="show.genres"></span></p>
+        <p>Status: <span [innerHTML]="show.status"></span></p>
+        <p>Premiered: <span [innerHTML]="show.premiered"></span></p>
+        <p>Official site:
+          <a *ngIf="show.officialSite; else noData" href="{{show.officialSite}}" target="_blank">{{show.officialSite}}</a>
+          <ng-template #noData>{{NO_DATA}}</ng-template>
+        </p>
+      </div>
+    </div>
+</div>
+
+<div class="d-flex p-4">
+  <app-show-cast *ngIf="cast.length; else noCastAvailable" [cast]="cast" class="w-50"></app-show-cast>
+  <ng-template #noCastAvailable>
+    <div class="w-50 justify-content-center">
+        No Cast Available
+    </div>
+  </ng-template>
+  <app-show-episodes *ngIf="episodes.length; else noEpisodesAvailable" [episodes]="episodes" class="w-50"></app-show-episodes>
+  <ng-template #noEpisodesAvailable>
+    <div class="w-50 justify-content-center">
+        No Episodes Available
+    </div>
+
+  </ng-template>
+</div>
+
+

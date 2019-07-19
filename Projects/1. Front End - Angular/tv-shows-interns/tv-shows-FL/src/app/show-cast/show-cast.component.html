@@ -1,0 +1,15 @@
+<p class="cast-text"><b>Cast</b></p>
+  <div *ngFor="let actor of cast">
+    <div class="d-flex px-2">
+      <img src="{{actor.imageURL}}"
+          alt="Show Image"
+          title="Show Image"
+          class="img-thumbnail"
+        />
+      <div class="name w-50 px-4 flex-grow-1">
+        <b>{{actor.name}}</b>
+      </div>
+  </div>
+</div>
+
+

@@ -1,0 +1,19 @@
+.search-result-container {
+  font-size: 12px;
+}
+
+img {
+  max-width: 80px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: bold;
+}
+.score {
+  float: right;
+}
+
+li {
+  list-style-type: none;
+}

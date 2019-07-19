@@ -1,0 +1,23 @@
+<form [formGroup]="searchForm">
+  <div class="input-group">
+    <input class="form-control shadow-none"
+           id="search-box"
+           formControlName="searchTerm"
+           placeholder="Find show..."
+    />
+    <span class="input-group-append">
+        <button type="submit"
+                class="btn btn-outline-secondary shadow-none"
+                (click)="onSubmit()"
+        >Search</button>
+    </span>
+  </div>
+</form>
+<app-show-search-result
+    *ngIf="showSearchResult.length"
+    [searchResult]="showSearchResult">
+</app-show-search-result>
+
+
+
+
