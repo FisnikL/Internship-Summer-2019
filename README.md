@@ -35,4 +35,4 @@ Sorsix Company - https://www.sorsix.com/
 - Gradle  
 - Git 
 
-### 4. [Final Project](https://github.com/TheRuinKing/Sorsix-Final-Project) - FINKI COMMUNITY FORUM
+### 4. [Final Project - FINKI COMMUNITY FORUM](https://github.com/TheRuinKing/Sorsix-Final-Project) 
