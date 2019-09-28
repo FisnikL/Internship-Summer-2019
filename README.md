@@ -3,7 +3,7 @@
 Sorsix Company - https://www.sorsix.com/
 
 
-# CONTENT
+# ACTIVITIES
 
 ### 1. [Lectures](https://github.com/FisnikL/Internship-Summer-2019/tree/master/Sorsix-Material)
 ### 2. Front End - Angular  
@@ -34,3 +34,14 @@ Sorsix Company - https://www.sorsix.com/
 -  Spring Boot
 -  Spring Data JPA
 -  PostgreSQL RDBMS
+
+### 2. [Final Project](https://github.com/TheRuinKing/Sorsix-Final-Project) - FINKI COMMUNITY FORUM
+&nbsp;&nbsp;&nbsp;**Technologies Used**: 
+- Git 
+- Angular 8
+- Gradle  
+- Spring Framework 5
+- Spring Boot 2.0
+- Spring Data JPA
+- Spring Security/JWT
+- PostgreSQL RDBMS
