@@ -35,7 +35,7 @@ Sorsix Company - https://www.sorsix.com/
 -  Spring Data JPA
 -  PostgreSQL RDBMS
 
-### 2. [Final Project](https://github.com/TheRuinKing/Sorsix-Final-Project) - FINKI COMMUNITY FORUM
+### 4. [Final Project](https://github.com/TheRuinKing/Sorsix-Final-Project) - FINKI COMMUNITY FORUM
 &nbsp;&nbsp;&nbsp;**Technologies Used**: 
 - Git 
 - Angular 8
