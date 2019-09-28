@@ -17,31 +17,31 @@ Sorsix Company - https://www.sorsix.com/
 
 #### &nbsp;&nbsp;&nbsp;3.1. [Project3](https://github.com/FisnikL/Internship-Summer-2019/tree/master/Projects/2.%20Back%20End%20-%20Spring/timestamp-interns) - Timestamp Microservice 
 ##### &nbsp;&nbsp;&nbsp;Project idea: https://learn.freecodecamp.org/apis-and-microservices/apis-and-microservices-projects/timestamp-microservice/
-&nbsp;&nbsp;&nbsp;**Technologies Used**:    
-- Gradle  
-- Git  
+&nbsp;&nbsp;&nbsp;**Technologies Used**:     
 - Spring Framework
 - Spring Boot  
+- Gradle  
+- Git 
   
 
 #### &nbsp;&nbsp;&nbsp;3.2. [Project4](https://github.com/FisnikL/Internship-Summer-2019/tree/master/Projects/2.%20Back%20End%20-%20Spring/url-shortener-interns) - Url Shortener Microservice
 
 ##### &nbsp;&nbsp;&nbsp;Project idea: [https://learn.freecodecamp.org/apis-and-microservices/apis-and-microservices-projects/url-shortener-microservice/]
-&nbsp;&nbsp;&nbsp;**Technologies Used**:   
-- Gradle  
-- Git  
+&nbsp;&nbsp;&nbsp;**Technologies Used**:    
 - Spring Framework
--  Spring Boot
--  Spring Data JPA
--  PostgreSQL RDBMS
+- Spring Boot
+- Spring Data JPA
+- PostgreSQL RDBMS
+- Gradle  
+- Git 
 
 ### 4. [Final Project](https://github.com/TheRuinKing/Sorsix-Final-Project) - FINKI COMMUNITY FORUM
 &nbsp;&nbsp;&nbsp;**Technologies Used**: 
-- Git 
 - Angular 8
-- Gradle  
 - Spring Framework 5
 - Spring Boot 2.0
 - Spring Data JPA
 - Spring Security/JWT
 - PostgreSQL RDBMS
+- Gradle  
+- Git
